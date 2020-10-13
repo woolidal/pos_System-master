@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet"href="Other/normalize.css">
+    <link rel="stylesheet"href="CSS/dashboard.css">
+</head>
+<body style="background-color: #b8b8b8">
+<main>
+    <nav>
+        <ul>
+            <li><a href="Dashboard.html"> Pos</a></li>
+            <li><a href="item.html">Item</a></li>
+            <li><a href="Customer.html">Customer</a></li>
+            <li><a href="Setting.html">Setting</a></li>
+        </ul>
+        <p id="pos">POS</p>
+        <p id="system">System</p>
+        <hr>
+    </nav>
+    <section>
+        <div></div>
+        <div id="line"></div>
+        <div id="fotter"></div>
+        <div id="add customer">
+            <input type="text"id="name"placeholder="Name">
+            <input type="text"id="NIC"placeholder="NIC">
+            <input type="text"id="Tel No"placeholder="Tel No">
+            <button id="save">Save</button>
+        </div>
+        <div id="order">
+            <div id="search">
+                <p id="p1">Search Customer</p>
+                <hr id="hr1">
+                <img src="img/icons8_Search_50px_1.png"id="icon Search">
+            </div>
+            <div id="div2">
+                <div id="item">
+                    <input type="text"id="item name"placeholder="제품명/제품 번호">
+                    <input type="text"id="qty"placeholder="수 량">
+                    <input type="text"id="price"placeholder="가격">
+                    <input type="text"id="discount"placeholder="할인">
+                    <input type="text"id="amount"placeholder="총 액">
+                    <button id="add">담기</button>
+                </div>
+                <div id="table_div">
+                <table id="pos_table">
+                    <thead id="thead">
+                    <tr>
+                        <th>제품 번호</th>
+                        <th>제품명</th>
+                        <th>수량</th>
+                        <th>가격</th>
+                        <th>할인</th>
+                        <th>총 액</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                        <td>F</td>
+                    </tr>
+                </table>
+                </div>
+                <button id="Place Order">Place order</button>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

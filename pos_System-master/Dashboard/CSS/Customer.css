@@ -1,0 +1,276 @@
+body>main{
+    width: 100%;
+    height: 100%;
+}
+body>main>nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #333333;
+
+}
+body>main>nav>ul{
+    list-style: none;
+    position: absolute;
+    display: inline;
+    top: 15%;
+}
+body>main>nav>ul>li{
+    /*list-style: none;*/
+    cursor: pointer;
+    padding: 30px;
+    font-size: 22px;
+    color: #b8b8b8;
+    font-family: "Yu Gothic UI";
+}
+li:hover{
+    background-color: #666666;
+    color: black;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 30px;
+}
+hr{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    top: 15%;
+    color: teal;
+}
+#p1{
+    position: absolute;
+    top: -5%;
+    left: 30%;
+    font-size: 50px;
+    font-family: "Bauhaus 93";
+    color: teal;
+}
+#p2{
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    font-size: 20px;
+    font-family: "Bauhaus 93";
+    color: teal;
+}
+main>section>div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80%;
+    height: 7%;
+    background-color:teal ;
+    border-top: solid aqua 3px;
+}
+#order {
+    position: absolute;
+    /* bottom: 21%; */
+    width: 78%;
+    right: 1%;
+    left: 21%;
+    top: 10%;
+    height: 80%;
+    background-color: white;
+    border-radius: 3%;
+}
+#search{
+    position: absolute;
+    width: 30%;
+    height: 6%;
+    background-color: white;
+    top: 3%;
+    left: 2%;
+    border-top-right-radius: 10% 100%;
+    border-bottom-right-radius: 10% 100% ;
+    border-top-left-radius: 10% 100%;
+    border-bottom-left-radius: 10% 100% ;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 2px;
+    z-index: 5;
+}
+#search_customer{
+    position: absolute;
+    color: #666666;
+    font-family: "Yu Gothic UI";
+    font-size: 15px;
+    bottom: -6px;
+    left: 5%;
+}
+#hr1{
+    top: 45%;
+    width: 80%;
+    left: -13px;
+}
+#icon\ Search{
+    position: absolute;
+    width: 7%;
+    right: 5%;
+}
+#item{
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    width: 30%;
+    height: 70%;
+    background-color: #b8b8b8;
+    border-top-right-radius: 100% 5%;
+    border-bottom-right-radius: 100% 5%;
+    border-top-left-radius: 100% 5%;
+    border-bottom-left-radius: 100% 5% ;
+}
+#cus\ name{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 90%;
+    color: #333333;
+}
+#NIC{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: 30%;
+    color: #333333;
+}
+#phone\ num{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    width: 40%;
+    color: #333333;
+}
+#address{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    width: 40%;
+    color: #333333;
+}
+#add{
+    position: absolute;
+    width: 40%;
+    height: 8%;
+    right:10%;
+    top: 55%;
+    background-color: #333333;
+    color: #b8b8b8;
+    font-family: "Yu Gothic UI";
+    border-top-right-radius: 15% 100%;
+    border-bottom-right-radius: 15% 100% ;
+    border-top-left-radius: 15% 100%;
+    border-bottom-left-radius: 15% 100% ;
+}
+#delete{
+    position: absolute;
+    width: 80%;
+    height: 8%;
+    right:10%;
+    top: 70%;
+    background-color: #333333;
+    color: #b8b8b8;
+    font-family: "Yu Gothic UI";
+    border-top-right-radius: 15% 100%;
+    border-bottom-right-radius: 15% 100% ;
+    border-top-left-radius: 15% 100%;
+    border-bottom-left-radius: 15% 100% ;
+}
+#update {
+    position: absolute;
+    width: 40%;
+    height: 8%;
+    right: 50%;
+    top: 55%;
+    background-color: #333333;
+    color: #b8b8b8;
+    font-family: "Yu Gothic UI";
+    border-top-right-radius: 15% 100%;
+    border-bottom-right-radius: 15% 100%;
+    border-top-left-radius: 15% 100%;
+    border-bottom-left-radius: 15% 100%;
+}
+#pos_table{
+    position: absolute;
+    width: 90%;
+
+    right: 5%;
+    top: 10%;
+    border-collapse: collapse;
+}
+table>th>td{
+    border: 1px solid black;
+}
+a{
+    color: #cbcbcb;
+}
+#fotter {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    top: 95%;
+    height: 5%;
+    background-color: teal;
+    border-top: 0;
+}
+#table_div{
+    position: absolute;
+    right: 4%;
+    top: 10%;
+    width: 60%;
+    height: 80%;
+    background-color: #cbcbcb;
+    margin: auto;
+
+    border-top-right-radius: 100% 5%;
+    border-bottom-right-radius: 100% 5%;
+    border-top-left-radius: 100% 5%;
+    border-bottom-left-radius: 100% 5% ;
+}
+#pos_table>thead{
+    text-align: center;
+}
+
+#pos_table>thead>tr{
+    background: darkcyan;
+    height: 25px;
+    color: white;
+    font-weight: normal;
+    font-family: monospace;
+}
+
+#pos_table>thead>tr>th, td{
+    padding: 8px 15px;
+}
+
+#pos_table>tbody>tr{
+    border-bottom: 1px solid white;
+}
+
+#pos_table>tbody>tr:nth-child(even){
+    background: #e1e1e1;
+}
+
+#pos_table>tbody>tr:last-of-type{
+    border-bottom: 2px solid darkcyan;
+}
+
+#pos_table>tfoot{
+    border-bottom: 3px solid darkcyan;
+}
+
+#pos_table>tfoot>tr>:nth-child(1){
+    color: darkcyan;
+    text-align: right;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#pos_table>tfoot>tr>:nth-child(2){
+    color: darkcyan;
+    font-family: monospace;
+    font-weight: bold;
+}
+
